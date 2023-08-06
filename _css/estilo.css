@@ -1,0 +1,33 @@
+h1 {
+    background-color: aqua;
+    font: 100;
+    color: crimson;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul{
+    margin: auto;
+    border: 2px;
+    border-style: dashed;
+    padding: auto;
+    
+}
+
+ul li {
+    list-style: square;
+}
+
+h1, h2, h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*modelo de tag para varias selecoes de valor de propriedade de uma tag*/ 
+h4[aviso~="red green yellow"]{
+    font-size: small;
+}
+
+/* pseudo seletor*/
+:focus{
+    color: lime;
+}
